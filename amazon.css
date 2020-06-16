@@ -1,0 +1,165 @@
+.link a:hover{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    color: gray;
+}
+.mySlides {
+    display:none;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.fade{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Caption text */
+.text1 {
+  color: black;
+  font-size: 15px;
+  font-family: Raleway>;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width:400px;
+}
+
+
+.text2 {
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width:400px;
+}
+
+.text3 {
+  color: black;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width:400px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5.5s;
+  animation-name: fade;
+  animation-duration: 5.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Container needed to position the button. Adjust the width as needed 
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive 
+.container img {
+  width: 100%;
+  height: auto;
+}
+*/
+
+.fade .btn {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fade .btn:hover {
+  background-color: black;
+}
+
+
+
+/*footer*/
+footer{
+    text-align: center;
+    height:220px;
+    padding-top: 20px;
+}
+footer li{
+    border-right: 1px solid darkgray;
+}
+footer a:hover{
+    color:gray;
+    text-decoration: none;
+}
+footer li:last-child{
+    border-right: none;
+}
+footer img{
+    display: block;
+    margin: 0 auto;
+}
+footer a{
+    text-decoration: none;
+    color: darkgray;
+    font-family: fantasy;
+}
+footer ul{
+    padding: 0px;
+}
+footer li{
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}
+/*footer*/
+
